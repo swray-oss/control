@@ -3,7 +3,9 @@ forge 'https://forge.puppet.com'
 mod 'puppetlabs-ntp', '8.0.0'
 
 mod 'apache',
-    :git => 'https://github.com/swray-oss/puppet-apache.git'
+    :git => 'https://github.com/swray-oss/puppet-apache.git',
+    :branch => 'main'
+
 
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
