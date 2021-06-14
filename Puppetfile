@@ -6,6 +6,9 @@ mod 'apache',
     :git => 'https://github.com/swray-oss/puppet-apache.git',
     :branch => 'main'
 
+mod 'base',
+    :git => 'https://github.com/swray-oss/puppet-base.git',
+    :branch => 'main'
 
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
